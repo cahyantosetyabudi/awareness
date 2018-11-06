@@ -18,6 +18,7 @@
 		791592D121913D430049CA22 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 791592CC21913D430049CA22 /* ProximaNova-Light.otf */; };
 		791592D6219146EF0049CA22 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791592D5219146EF0049CA22 /* LandingViewController.swift */; };
 		791592D82191478E0049CA22 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791592D72191478E0049CA22 /* RoundButton.swift */; };
+		791592DA21915D980049CA22 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791592D921915D980049CA22 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		791592CC21913D430049CA22 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
 		791592D5219146EF0049CA22 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		791592D72191478E0049CA22 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		791592D921915D980049CA22 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				791592B7219137FD0049CA22 /* Info.plist */,
 				791592D5219146EF0049CA22 /* LandingViewController.swift */,
 				791592D72191478E0049CA22 /* RoundButton.swift */,
+				791592D921915D980049CA22 /* LoginViewController.swift */,
 			);
 			path = awareness;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791592DA21915D980049CA22 /* LoginViewController.swift in Sources */,
 				791592D82191478E0049CA22 /* RoundButton.swift in Sources */,
 				791592D6219146EF0049CA22 /* LandingViewController.swift in Sources */,
 				791592AC219137FC0049CA22 /* AppDelegate.swift in Sources */,
