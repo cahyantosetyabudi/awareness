@@ -11,12 +11,22 @@ import UIKit
 class SpiritViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var filterView: UIView!
+    @IBOutlet weak var filterImageView: UIImageView!
+    @IBOutlet weak var redDotView: UIView!
     
     var width = CGFloat()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        filterView.layer.masksToBounds = false
+        filterView.layer.cornerRadius = filterView.frame.width/2
+        filterView.clipsToBounds = true
+        
+        redDotView.layer.masksToBounds = false
+        redDotView.layer.cornerRadius = redDotView.frame.width/2
+        redDotView.clipsToBounds = true
     }
 
 }
@@ -24,6 +34,15 @@ class SpiritViewController: UIViewController {
 extension SpiritViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return width
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let header = Bundle.main.loadNibNamed("SpiritHeaderTableViewCell", owner: self, options: nil)?.first as! SpiritHeaderTableViewCell
+        return header
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 60
     }
 }
 

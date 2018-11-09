@@ -22,6 +22,8 @@
 		79684C492193581C003BE0C5 /* SpiritTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79684C482193581C003BE0C5 /* SpiritTableViewCell.swift */; };
 		797112922192C39F007D6BB2 /* SpiritViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797112912192C39F007D6BB2 /* SpiritViewController.swift */; };
 		79BD89ED2192C8A100D7BCA9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BD89EC2192C8A100D7BCA9 /* CardView.swift */; };
+		A42196802195E5D700DB643E /* SpiritHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421967E2195E5D700DB643E /* SpiritHeaderTableViewCell.swift */; };
+		A42196812195E5D700DB643E /* SpiritHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A421967F2195E5D700DB643E /* SpiritHeaderTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		79684C482193581C003BE0C5 /* SpiritTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritTableViewCell.swift; sourceTree = "<group>"; };
 		797112912192C39F007D6BB2 /* SpiritViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritViewController.swift; sourceTree = "<group>"; };
 		79BD89EC2192C8A100D7BCA9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A421967E2195E5D700DB643E /* SpiritHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		A421967F2195E5D700DB643E /* SpiritHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpiritHeaderTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				791592D921915D980049CA22 /* LoginViewController.swift */,
 				797112912192C39F007D6BB2 /* SpiritViewController.swift */,
 				79684C482193581C003BE0C5 /* SpiritTableViewCell.swift */,
+				A421967E2195E5D700DB643E /* SpiritHeaderTableViewCell.swift */,
+				A421967F2195E5D700DB643E /* SpiritHeaderTableViewCell.xib */,
 			);
 			path = awareness;
 			sourceTree = "<group>";
@@ -186,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				791592B6219137FD0049CA22 /* LaunchScreen.storyboard in Resources */,
+				A42196812195E5D700DB643E /* SpiritHeaderTableViewCell.xib in Resources */,
 				791592CE21913D430049CA22 /* ProximaNova-Extrabold.otf in Resources */,
 				791592CD21913D430049CA22 /* ProximaNova-Bold.otf in Resources */,
 				791592B3219137FD0049CA22 /* Assets.xcassets in Resources */,
@@ -204,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				791592DA21915D980049CA22 /* LoginViewController.swift in Sources */,
+				A42196802195E5D700DB643E /* SpiritHeaderTableViewCell.swift in Sources */,
 				79684C492193581C003BE0C5 /* SpiritTableViewCell.swift in Sources */,
 				791592D82191478E0049CA22 /* RoundButton.swift in Sources */,
 				797112922192C39F007D6BB2 /* SpiritViewController.swift in Sources */,
