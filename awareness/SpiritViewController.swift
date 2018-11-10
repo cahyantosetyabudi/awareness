@@ -22,6 +22,8 @@ class SpiritViewController: UIViewController {
         
         filterView.layer.masksToBounds = false
         filterView.layer.cornerRadius = filterView.frame.width/2
+        filterView.layer.borderWidth = 1
+        filterView.layer.borderColor = UIColor.clear.cgColor
         filterView.clipsToBounds = true
         
         redDotView.layer.masksToBounds = false
