@@ -18,10 +18,6 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let preferences = UserDefaults.standard
-        if preferences.object(forKey: "token") != nil {
-            login_token = preferences.object(forKey: "token") as! String
-        }
     }
     
     @IBAction func emailTextField(_ sender: UITextField) {
@@ -86,9 +82,7 @@ class LoginViewController: UIViewController {
                     let preferences = UserDefaults.standard
                     preferences.set(self.login_token, forKey: "token")
                     
-                    DispatchQueue.main.async {
-                        self.segueToTabBar()
-                    }
+                    self.segueToTabBar()
                 } else {
                     self.displayMesage("Email or Password Wrong")
                 }
@@ -116,8 +110,10 @@ extension LoginViewController {
     }
     
     func segueToTabBar() {
-        let mainTabBarController = self.storyboard?.instantiateViewController(withIdentifier: "MainTabBarController") as! MainTabBarController
-        self.present(mainTabBarController, animated: true, completion: nil)
+        DispatchQueue.main.async {
+            let mainTabBarController = self.storyboard?.instantiateViewController(withIdentifier: "MainTabBarController") as! MainTabBarController
+            self.present(mainTabBarController, animated: true, completion: nil)
+        }
     }
     
     func removeActivityIndicator(_ activityIndicator: UIActivityIndicatorView) {

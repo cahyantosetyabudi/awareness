@@ -2,7 +2,7 @@
 //  MainTabBarController.swift
 //  awareness
 //
-//  Created by Adam Mukharil Bachtiar on 11/11/18.
+//  Created by Cahyanto Setya Budi on 11/6/18.
 //  Copyright © 2018 Cahyanto Setya Budi. All rights reserved.
 //
 
