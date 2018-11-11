@@ -25,6 +25,7 @@
 		A42196802195E5D700DB643E /* SpiritHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421967E2195E5D700DB643E /* SpiritHeaderTableViewCell.swift */; };
 		A42196812195E5D700DB643E /* SpiritHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A421967F2195E5D700DB643E /* SpiritHeaderTableViewCell.xib */; };
 		A446A0542197F81000E0378B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A446A0532197F81000E0378B /* MainTabBarController.swift */; };
+		A446A05621982BCE00E0378B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A446A05521982BCE00E0378B /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		A421967E2195E5D700DB643E /* SpiritHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiritHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		A421967F2195E5D700DB643E /* SpiritHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpiritHeaderTableViewCell.xib; sourceTree = "<group>"; };
 		A446A0532197F81000E0378B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A446A05521982BCE00E0378B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				A421967E2195E5D700DB643E /* SpiritHeaderTableViewCell.swift */,
 				A421967F2195E5D700DB643E /* SpiritHeaderTableViewCell.xib */,
 				A446A0532197F81000E0378B /* MainTabBarController.swift */,
+				A446A05521982BCE00E0378B /* ProfileViewController.swift */,
 			);
 			path = awareness;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			files = (
 				791592DA21915D980049CA22 /* LoginViewController.swift in Sources */,
 				A42196802195E5D700DB643E /* SpiritHeaderTableViewCell.swift in Sources */,
+				A446A05621982BCE00E0378B /* ProfileViewController.swift in Sources */,
 				A446A0542197F81000E0378B /* MainTabBarController.swift in Sources */,
 				79684C492193581C003BE0C5 /* SpiritTableViewCell.swift in Sources */,
 				791592D82191478E0049CA22 /* RoundButton.swift in Sources */,
